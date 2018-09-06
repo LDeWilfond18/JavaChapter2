@@ -1,6 +1,8 @@
 package exercises;
 
-public class InchesToFeet {
+import java.util.Scanner;
+
+public class InchesToFeetInteractive {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -8,7 +10,12 @@ public class InchesToFeet {
 		int INCHES_IN_FEET = 12;
 		int feet;
 		int inches;
-		int startingInches = 63;
+		int startingInches;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("How many inches? ");
+		startingInches = input.nextInt();
 		
 		feet = startingInches / INCHES_IN_FEET;
 		inches = startingInches % INCHES_IN_FEET;
