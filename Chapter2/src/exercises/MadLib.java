@@ -7,30 +7,29 @@ public class MadLib {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int int1;
-		int int2;
-		int int3;
-		int int4;
-		int int5;
+		
+		
+		String int1;
+		String int2;
+		String int3;
+		String int4;
 		
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Please enter a noun");
-		int1 = input.nextInt();
+		int1 = input.nextLine();
 		
 		System.out.println("Please enter another noun");
-		int2 = input.nextInt();
+		int2 = input.nextLine();
 		
 		System.out.println("Please enter an adjective");
-		int3 = input.nextInt();
+		int3 = input.nextLine();
 		
 		System.out.println("Please enter another adjective");
-		int4 = input.nextInt();
+		int4 = input.nextLine();
 		
-		System.out.println("Please enter another noun");
-		int5 = input.nextInt();
-		
-		System.out.println("Mary had a little " + int1 + " /nIts " + int2 + " was " + int3 + "as snow \nAnd");
+		System.out.println("Mary had a little " + int1 + " \nIts " + int2 + " was " + int3 
+				+ " as snow \nAnd everwhere that Mary " + int4 + " \nThe " + int1 + " was sure to go");
 		
 
 	}
